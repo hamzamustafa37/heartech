@@ -50,6 +50,7 @@ imgsection{
 .appoint-btn{
   width: 300px;
   background: #018EE4;
+  border:1px solid #018EE4 ;
   border-radius: 10px;
   height: 68px;
   color: #ffffff;

@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import './styles/LandingPage.css';
+import './styles/aboutUs.css';
 import Heartech from './View/heartech';
 
 

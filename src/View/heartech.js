@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'reactstrap';
 import Header from '../Components/Header';
+import AboutUs from '../Components/AboutUs';
 
 const Heartech = () => {
 	return (
@@ -33,11 +34,16 @@ const Heartech = () => {
                     <div className='imgsection'>
                 <div className="imgcontainer d-flex justify-content-center">
   <img src="./assets/img/bgblue.png" alt="Cinque Terre" width="500" height="300" className="mt-5"/>
-  <div className="center"><img src='/assets/img/doc.png' height="500" /></div>
+  <div className="center"><img src='/assets/img/doc.png' height="500" alt ="imgbackground"/></div>
                       </div>
                       </div>
 				</Col>
+				<Col md='12' lg='12' sm='12' xs='12' >
+               
+                <AboutUs/>
+                </Col>
 			</Row>
+            
 		</>
 	);
 };
