@@ -1,0 +1,98 @@
+.cs-btn{
+width: 120px;
+height: 40px;
+}
+.whitebtn{
+background-color: transparent;
+color: #2EC2A5;
+border: 2px solid #2EC2A5;
+border-radius: 5px;
+
+}
+imgsection{
+  height: 100%;
+}
+.imgcontainer {
+  position: relative;
+ margin-top: 200px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  font-size: 18px;
+}
+
+.whitebtn:hover{
+    background-color: #2EC2A5;
+    color: #ffffff;
+    border-radius: 1px solid #2EC2A5;
+    border-color: #2EC2A5;
+  }
+
+  .greenbtn{
+    background-color: #2EC2A5;
+    color: #ffffff;
+    border: 1px solid #2EC2A5;
+   border-radius: 5px;
+  }
+.bg-ground{
+  background-image: url(
+    "../../public/assets/img/bgblue.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondImg {
+  margin-left: 20px;
+}
+.appoint-btn{
+  width: 300px;
+  background: #018EE4;
+  border-radius: 10px;
+  height: 68px;
+  color: #ffffff;
+}
+.center-btn{
+  position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+  width: 280px;
+  height: 115px;
+}
+.text-section{
+  width: 100%;
+  padding: 60px;
+}
+.first-head{
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -0.02em;
+  color: #018EE4;
+}
+.second-head-bold{
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.pera{
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.02em;
+color: #242424;
+}
