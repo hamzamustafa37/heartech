@@ -1,20 +1,19 @@
-.cs-btn{
-width: 120px;
-height: 40px;
+.cs-btn {
+  width: 120px;
+  height: 40px;
 }
-.whitebtn{
-background-color: transparent;
-color: #2EC2A5;
-border: 2px solid #2EC2A5;
-border-radius: 5px;
-
+.whitebtn {
+  background-color: transparent;
+  color: #2ec2a5;
+  border: 2px solid #2ec2a5;
+  border-radius: 5px;
 }
-imgsection{
+imgsection {
   height: 100%;
 }
 .imgcontainer {
   position: relative;
- margin-top: 200px;
+  margin-top: 200px;
 }
 .center {
   position: absolute;
@@ -24,63 +23,60 @@ imgsection{
   font-size: 18px;
 }
 
-.whitebtn:hover{
-    background-color: #2EC2A5;
-    color: #ffffff;
-    border-radius: 1px solid #2EC2A5;
-    border-color: #2EC2A5;
-  }
+.whitebtn:hover {
+  background-color: #2ec2a5;
+  color: #ffffff;
+  border-radius: 1px solid #2ec2a5;
+  border-color: #2ec2a5;
+}
 
-  .greenbtn{
-    background-color: #2EC2A5;
-    color: #ffffff;
-    border: 1px solid #2EC2A5;
-   border-radius: 5px;
-  }
-.bg-ground{
-  background-image: url(
-    "../../public/assets/img/bgblue.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.greenbtn {
+  background-color: #2ec2a5;
+  color: #ffffff;
+  border: 1px solid #2ec2a5;
+  border-radius: 5px;
+}
+.bg-ground {
+  background-image: url("../../public/assets/img/bgblue.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .secondImg {
   margin-left: 20px;
 }
-.appoint-btn{
+.appoint-btn {
   width: 300px;
-  background: #018EE4;
-  border:1px solid #018EE4 ;
+  background: #018ee4;
+  border: 1px solid #018ee4;
   border-radius: 10px;
   height: 68px;
   color: #ffffff;
 }
-.center-btn{
+.center-btn {
   position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    
-    margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
   width: 280px;
   height: 115px;
 }
-.text-section{
+.text-section {
   width: 100%;
   padding: 60px;
 }
-.first-head{
-  
+.first-head {
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 80px;
   letter-spacing: -0.02em;
-  color: #018EE4;
+  color: #018ee4;
 }
-.second-head-bold{
-
+.second-head-bold {
   font-style: normal;
   font-weight: 600;
   font-size: 62px;
@@ -89,11 +85,44 @@ imgsection{
   color: #000000;
 }
 
-.pera{
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 36px;
-letter-spacing: -0.02em;
-color: #242424;
+.pera {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #242424;
+}
+@media only screen and (max-width: 600px) {
+  .text-section {
+padding: 0;
+  }
+  .first-head {
+    font-weight: bold;
+    font-size: 32px;
+line-height: 30px;
+  }
+  .second-head-bold {
+
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  
+  .pera {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+   
+  }
+  .appoint-btn {
+    width: 150px;
+    background: #018ee4;
+    border: 1px solid #018ee4;
+    border-radius: 10px;
+    height: 68px;
+    color: #ffffff;
+  }
+
+ 
 }

@@ -1,0 +1,25 @@
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.card-description {
+  color: #242424;
+  font-size: 14px;
+}
+.des-container {
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+.custom-row {
+  margin: 0;
+  padding-left: 5%;
+}
+@media (max-width: 576px) {
+  .card-container {
+    text-align: -webkit-center !important;
+  }
+}
+.see-more{
+font-size: 12px;
+color: #2EC2A5;
+}

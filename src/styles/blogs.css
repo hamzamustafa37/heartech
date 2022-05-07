@@ -1,0 +1,44 @@
+.titlePage {
+    text-align: center;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 54px;
+	letter-spacing: -0.02em;
+	color: #018ee4;
+}
+.left-card{
+    border-radius: 20px;
+}
+.share{
+    padding: 2px;
+    color: #018ee4;
+    font-weight: bold;
+}
+.card-img-top{
+    width: 250px;
+}
+.card-img-top>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    object-fit: cover;
+}
+.f-img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.date-upload{
+    display: flex;
+    font-size: 12px;
+}
+.date-upload>p{
+    margin-left: 5px;
+    color: #018EE4;
+}
+.showMore{
+    color: #018EE4;
+font-weight: bold;
+}
